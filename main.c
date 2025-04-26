@@ -175,7 +175,6 @@ int main(void)
             getchar();
             break;
         case 7: 
-            clearScreen();
             printf("\n=== Perbandingan Metode Sorting ===\n");
             
             // Print header tabel
