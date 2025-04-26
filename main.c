@@ -47,7 +47,7 @@ int main(void)
         puts("(3) Keluar dari program");
         printf("Masukkan Pilihan : ");
         scanf("%d", (int*)&dataOption);
-        clearInputBuffer();  // Bersihkan buffer setelah input
+        clearInputBuffer();  
         if(dataOption == 3){
             break;
         }
@@ -67,7 +67,7 @@ int main(void)
         puts("(9) Kembali");
         printf("Masukkan Pilihan : ");
         scanf("%d", (int*)&lengthOption);
-        clearInputBuffer();  // Bersihkan buffer setelah input
+        clearInputBuffer();  
         if(lengthOption == 9){
             goto DataType;
         }
@@ -199,7 +199,6 @@ int main(void)
         
         }
     }
-
     
     clearScreen();
     return 0;
